@@ -1,16 +1,21 @@
 {
-  "name": "actas_ve",
+  "name": "actas-ve",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "actas",
+    "elecciones",
+    "venezuela",
+    "node"
+  ],
+  "author": "cha5e369",
+  "license": "MIT",
+  "description": "Herramienta para descargar actas desde un archivo CSV, con manejo de errores y reintentos automáticos.",
   "dependencies": {
     "node-fetch": "^3.3.2",
     "readline": "^1.3.0"
